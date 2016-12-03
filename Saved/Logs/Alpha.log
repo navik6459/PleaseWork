@@ -1,0 +1,793 @@
+﻿Log file open, 12/03/16 11:19:49
+LogInit:Display: Running engine for game: Alpha
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1373908708) SRandInit(1373908722).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.103682
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.03-17.19.49:445][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.03-17.19.49:445][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.03-17.19.49:456][  0]LogInit: Computer: BEHEMOTH
+[2016.12.03-17.19.49:456][  0]LogInit: User: Sean
+[2016.12.03-17.19.49:456][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.03-17.19.49:456][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2016.12.03-17.19.49:456][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.12.03-17.19.49:456][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.03-17.19.49:456][  0]LogMemory: Process Physical Memory: 256.49 MB used, 256.49 MB peak
+[2016.12.03-17.19.49:456][  0]LogMemory: Process Virtual Memory: 260.08 MB used, 260.08 MB peak
+[2016.12.03-17.19.49:456][  0]LogMemory: Physical Memory: 4500.70 MB used, 8158.65 MB total
+[2016.12.03-17.19.49:456][  0]LogMemory: Virtual Memory: 623.22 MB used, 134217728.00 MB total
+[2016.12.03-17.19.49:494][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.12.03-17.19.50:356][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.03-17.19.50:897][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.12.03-17.19.50:897][  0]LogD3D11RHI:       4058/0/4079 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.03-17.19.50:900][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.03-17.19.50:900][  0]LogD3D11RHI:       0/0/4079 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.03-17.19.50:900][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.03-17.19.50:910][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.03-17.19.50:910][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.03-17.19.50:910][  0]LogWindows: EnumDisplayDevices:
+[2016.12.03-17.19.50:910][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2016.12.03-17.19.50:910][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.12.03-17.19.50:910][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.12.03-17.19.50:911][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2016.12.03-17.19.50:911][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.12.03-17.19.50:911][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.12.03-17.19.50:911][  0]LogD3D11RHI:   Driver Version: 375.70 (internal:21.21.13.7570, unified:375.70)
+[2016.12.03-17.19.50:911][  0]LogD3D11RHI:      Driver Date: 10-25-2016
+[2016.12.03-17.19.50:911][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.03-17.19.51:433][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.03-17.19.51:486][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.12.03-17.19.51:487][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Sean/Documents/Unreal Projects/Alpha/Intermediate/Shaders/WorkingDirectory/11176/).
+[2016.12.03-17.19.51:487][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sean/AppData/Local/Temp/UnrealShaderWorkingDir/9E2647814A2F27BA34E72AA01A9A5F7F/'.
+[2016.12.03-17.19.51:487][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.03-17.19.54:850][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.03-17.19.54:865][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.03-17.19.54:879][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.03-17.19.54:893][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.03-17.19.54:906][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.03-17.19.54:917][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.03-17.19.54:930][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.03-17.19.54:941][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.03-17.19.54:952][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.03-17.19.54:962][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.03-17.19.54:973][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.03-17.19.54:995][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.03-17.19.54:995][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.03-17.19.54:997][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.03-17.19.55:026][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.03-17.19.55:038][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.03-17.19.55:051][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.03-17.19.55:064][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.03-17.19.55:077][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.03-17.19.55:089][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.03-17.19.55:089][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.03-17.19.55:259][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.03-17.19.55:439][  0]LogDerivedDataCache: Loaded boot cache 0.18s 63MB C:/Users/Sean/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.03-17.19.55:439][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sean/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.03-17.19.55:439][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sean/Documents/Unreal Projects/Alpha/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.03-17.19.55:439][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.03-17.19.55:439][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Sean/Documents/Unreal Projects/Alpha/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.03-17.19.55:439][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.03-17.19.55:469][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.03-17.19.55:481][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.03-17.19.55:859][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.03-17.19.55:864][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.03-17.19.56:022][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.03-17.19.56:022][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.03-17.19.56:022][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.03-17.19.56:137][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.03-17.19.56:654][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: alpha, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 461884535
+[2016.12.03-17.19.56:701][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2016.12.03-17.19.56:932][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.225032 seconds
+[2016.12.03-17.19.56:939][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.12.03-17.19.56:939][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.12.03-17.19.56:939][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.03-17.19.56:954][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.03-17.19.57:321][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.03-17.19.57:321][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.03-17.19.58:354][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.03-17.19.58:416][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.03-17.19.59:171][  0]SourceControl: Info Source control is disabled
+[2016.12.03-17.19.59:172][  0]SourceControl: Info Source control is disabled
+[2016.12.03-17.19.59:194][  0]SourceControl: Info Source control is disabled
+[2016.12.03-17.19.59:215][  0]SourceControl: Info Source control is disabled
+[2016.12.03-17.19.59:880][  0]LogEngine: Initializing Engine...
+[2016.12.03-17.19.59:893][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2016.12.03-17.20.00:113][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.03-17.20.00:134][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2016.12.03-17.20.00:173][  0]LogInit: FAudioDevice initialized.
+[2016.12.03-17.20.00:259][  0]LogDerivedDataCache: Saved boot cache 0.09s 64MB C:/Users/Sean/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.03-17.20.00:278][  0]LogInit: Texture streaming: Enabled
+[2016.12.03-17.20.00:327][  0]LogInit: Transaction tracking system initialized
+[2016.12.03-17.20.00:372][  0]BlueprintLog: New page: Editor Load
+[2016.12.03-17.20.01:566][  0]LocalizationService: Info Localization service is disabled
+[2016.12.03-17.20.01:751][  0]LogConsoleResponse:Display: 
+[2016.12.03-17.20.01:909][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.03-17.20.01:909][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.03-17.20.03:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Content/' took 0.01s
+[2016.12.03-17.20.03:796][  0]SourceControl: Info Source control is disabled
+[2016.12.03-17.20.03:796][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Sean/Documents/Unreal Projects/Alpha/Content/TopDownCPP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.03-17.20.03:797][  0]LightingResults: New page: Lighting Build
+[2016.12.03-17.20.03:802][  0]MapCheck: New page: Map Check
+[2016.12.03-17.20.03:802][  0]LightingResults: New page: Lighting Build
+[2016.12.03-17.20.04:710][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.12.03-17.20.04:718][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.03-17.20.04:719][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.03-17.20.04:794][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.515ms to complete.
+[2016.12.03-17.20.04:794][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.998
+[2016.12.03-17.20.04:928][  0]LogCollectionManager: Loaded 0 collections in 0.003518 seconds
+[2016.12.03-17.20.05:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Saved/Collections/' took 0.01s
+[2016.12.03-17.20.05:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Content/Developers/Sean/Collections/' took 0.01s
+[2016.12.03-17.20.05:020][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Content/Collections/' took 0.01s
+[2016.12.03-17.20.05:020][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.12.03-17.20.05:036][  0]LogContentBrowser: Native class hierarchy populated in 0.0160 seconds. Added 2144 classes and 417 folders.
+[2016.12.03-17.20.05:150][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.03-17.20.05:150][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.03-17.20.05:152][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0025 seconds. Added 12 classes and 0 folders.
+[2016.12.03-17.20.05:163][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2016.12.03-17.20.05:241][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2016.12.03-17.20.05:251][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2016.12.03-17.20.05:272][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.03-17.20.05:279][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.12.03-17.20.05:311][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0025 seconds. Added 1 classes and 2 folders.
+[2016.12.03-17.20.05:311][  0]LogLoad: (Engine Initialization) Total time: 18.11 seconds
+[2016.12.03-17.20.05:311][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2016.12.03-17.20.05:311][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.03-17.20.05:311][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.03-17.20.05:320][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.03-17.20.05:321][  0]LogOcInput: OculusInput pre-init called
+[2016.12.03-17.20.05:353][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.03-17.20.05:570][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.12.03-17.20.06:077][  3]LogAssetRegistry: Asset discovery search completed in 9.3975 seconds
+[2016.12.03-17.20.06:077][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.12.03-17.20.06:077][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2016.12.03-17.20.10:338][511]LogHttp:Warning: 000001B6A7038280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.20.10:338][511]LogHttp:Warning: 000001B6A7038280: libcurl info message cache 8 (Could not resolve host: cdn.unrealengine.com)
+[2016.12.03-17.20.10:338][511]LogHttp:Warning: 000001B6A7038280: libcurl info message cache 9 (Closing connection 0)
+[2016.12.03-17.20.15:383][113]LogHttp:Warning: 000001B6A82C9900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.20.15:383][113]LogHttp:Warning: 000001B6A82C9900: libcurl info message cache 8 (Could not resolve host: cdn.unrealengine.com)
+[2016.12.03-17.20.15:383][113]LogHttp:Warning: 000001B6A82C9900: libcurl info message cache 9 (Closing connection 1)
+[2016.12.03-17.20.20:422][716]LogHttp:Warning: 000001B6A820CD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.20.20:422][716]LogHttp:Warning: 000001B6A820CD00: libcurl info message cache 8 (Could not resolve host: cdn.unrealengine.com)
+[2016.12.03-17.20.20:422][716]LogHttp:Warning: 000001B6A820CD00: libcurl info message cache 9 (Closing connection 2)
+[2016.12.03-17.21.10:385][706]LogHttp:Warning: 000001B6A820C400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.21.10:385][706]LogHttp:Warning: 000001B6A820C400: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-17.21.10:385][706]LogHttp:Warning: 000001B6A820C400: libcurl info message cache 9 (Closing connection 3)
+[2016.12.03-17.23.44:753][483]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2016.12.03-17.23.44:768][484]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2016.12.03-17.23.45:101][485]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2016.12.03-17.23.45:434][486]LogVSAccessor:Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2016.12.03-17.24.19:748][487]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Source/Alpha/AlphaGameMode.h'
+[2016.12.03-17.24.19:871][487]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Source/Alpha/AlphaGameMode.cpp'
+[2016.12.03-17.26.10:640][821]LogHttp:Warning: 000001B683BECB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.26.10:640][821]LogHttp:Warning: 000001B683BECB80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-17.26.10:640][821]LogHttp:Warning: 000001B683BECB80: libcurl info message cache 9 (Closing connection 4)
+[2016.12.03-17.31.10:646][721]LogHttp:Warning: 000001B683BEEB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.31.10:646][721]LogHttp:Warning: 000001B683BEEB00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-17.31.10:646][721]LogHttp:Warning: 000001B683BEEB00: libcurl info message cache 9 (Closing connection 5)
+[2016.12.03-17.36.10:651][621]LogHttp:Warning: 000001B683BED180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.36.10:651][621]LogHttp:Warning: 000001B683BED180: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-17.36.10:651][621]LogHttp:Warning: 000001B683BED180: libcurl info message cache 9 (Closing connection 6)
+[2016.12.03-17.41.10:652][521]LogHttp:Warning: 000001B683BEEB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.41.10:652][521]LogHttp:Warning: 000001B683BEEB00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-17.41.10:652][521]LogHttp:Warning: 000001B683BEEB00: libcurl info message cache 9 (Closing connection 7)
+[2016.12.03-17.46.10:654][421]LogHttp:Warning: 000001B683BEF100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.46.10:654][421]LogHttp:Warning: 000001B683BEF100: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-17.46.10:654][421]LogHttp:Warning: 000001B683BEF100: libcurl info message cache 9 (Closing connection 8)
+[2016.12.03-17.51.10:656][321]LogHttp:Warning: 000001B683BEEB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.51.10:656][321]LogHttp:Warning: 000001B683BEEB00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-17.51.10:656][321]LogHttp:Warning: 000001B683BEEB00: libcurl info message cache 9 (Closing connection 9)
+[2016.12.03-17.56.10:659][221]LogHttp:Warning: 000001B683BED480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-17.56.10:659][221]LogHttp:Warning: 000001B683BED480: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-17.56.10:659][221]LogHttp:Warning: 000001B683BED480: libcurl info message cache 9 (Closing connection 10)
+[2016.12.03-18.01.10:661][121]LogHttp:Warning: 000001B683BED480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.01.10:661][121]LogHttp:Warning: 000001B683BED480: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.01.10:661][121]LogHttp:Warning: 000001B683BED480: libcurl info message cache 9 (Closing connection 11)
+[2016.12.03-18.06.10:663][ 21]LogHttp:Warning: 000001B683BECE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.06.10:663][ 21]LogHttp:Warning: 000001B683BECE80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.06.10:663][ 21]LogHttp:Warning: 000001B683BECE80: libcurl info message cache 9 (Closing connection 12)
+[2016.12.03-18.11.10:332][920]LogHttp:Warning: 000001B683BED180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.11.10:332][920]LogHttp:Warning: 000001B683BED180: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.11.10:332][920]LogHttp:Warning: 000001B683BED180: libcurl info message cache 9 (Closing connection 13)
+[2016.12.03-18.16.10:334][820]LogHttp:Warning: 000001B683BECE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.16.10:334][820]LogHttp:Warning: 000001B683BECE80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.16.10:334][820]LogHttp:Warning: 000001B683BECE80: libcurl info message cache 9 (Closing connection 14)
+[2016.12.03-18.21.10:336][720]LogHttp:Warning: 000001B683BED180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.21.10:336][720]LogHttp:Warning: 000001B683BED180: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.21.10:336][720]LogHttp:Warning: 000001B683BED180: libcurl info message cache 9 (Closing connection 15)
+[2016.12.03-18.26.10:338][620]LogHttp:Warning: 000001B683BECE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.26.10:338][620]LogHttp:Warning: 000001B683BECE80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.26.10:338][620]LogHttp:Warning: 000001B683BECE80: libcurl info message cache 9 (Closing connection 16)
+[2016.12.03-18.31.10:341][520]LogHttp:Warning: 000001B683BEDD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.31.10:341][520]LogHttp:Warning: 000001B683BEDD80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.31.10:341][520]LogHttp:Warning: 000001B683BEDD80: libcurl info message cache 9 (Closing connection 17)
+[2016.12.03-18.36.10:342][420]LogHttp:Warning: 000001B683BED480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.36.10:342][420]LogHttp:Warning: 000001B683BED480: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.36.10:342][420]LogHttp:Warning: 000001B683BED480: libcurl info message cache 9 (Closing connection 18)
+[2016.12.03-18.41.10:344][320]LogHttp:Warning: 000001B683BEC880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.41.10:344][320]LogHttp:Warning: 000001B683BEC880: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.41.10:344][320]LogHttp:Warning: 000001B683BEC880: libcurl info message cache 9 (Closing connection 19)
+[2016.12.03-18.46.10:347][220]LogHttp:Warning: 000001B683BECA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.46.10:347][220]LogHttp:Warning: 000001B683BECA00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.46.10:347][220]LogHttp:Warning: 000001B683BECA00: libcurl info message cache 9 (Closing connection 20)
+[2016.12.03-18.51.10:352][120]LogHttp:Warning: 000001B683BED180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.51.10:352][120]LogHttp:Warning: 000001B683BED180: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.51.10:352][120]LogHttp:Warning: 000001B683BED180: libcurl info message cache 9 (Closing connection 21)
+[2016.12.03-18.56.10:354][ 20]LogHttp:Warning: 000001B683BEDD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.56.10:354][ 20]LogHttp:Warning: 000001B683BEDD80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.56.10:354][ 20]LogHttp:Warning: 000001B683BEDD80: libcurl info message cache 9 (Closing connection 22)
+[2016.12.03-18.57.02:673][511]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Source/Alpha/AlphaGameMode.h'
+[2016.12.03-18.57.02:687][511]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Source/Alpha/AlphaGameMode.cpp'
+[2016.12.03-18.57.30:171][343]Running C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha Win64 Development -editorrecompile "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject" -invalidatemakefilesonly
+[2016.12.03-18.57.30:802][343]Invalidating makefiles only in this run.
+[2016.12.03-18.57.33:642][343]Recompiling Alpha...
+[2016.12.03-18.57.33:643][343]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha -ModuleWithSuffix Alpha 6208 Win64 Development -editorrecompile -canskiplink "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject"  -2015]
+[2016.12.03-18.58.53:782][343]CompilerResultsLog: New page: Compilation - Dec 3, 2016, 6:58:53 AM
+[2016.12.03-18.58.53:792][343]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2016.12.03-18.58.53:792][343]CompilerResultsLog: Info Creating makefile for hot reloading Alpha (no existing makefile)
+[2016.12.03-18.58.53:792][343]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.12.03-18.58.53:792][343]CompilerResultsLog: Info Parsing headers for AlphaEditor
+[2016.12.03-18.58.53:792][343]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Sean\Documents\Unreal Projects\Alpha\Alpha.uproject" "C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\AlphaEditor\Development\AlphaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.12.03-18.58.53:793][343]CompilerResultsLog: Info Reflection code generated for AlphaEditor in 5.1671284 seconds
+[2016.12.03-18.58.53:793][343]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2016.12.03-18.58.53:793][343]CompilerResultsLog: Info Alpha.generated.cpp
+[2016.12.03-18.58.53:793][343]CompilerResultsLog: Info Tower.cpp
+[2016.12.03-18.58.53:793][343]CompilerResultsLog: Info [3/3] Link UE4Editor-Alpha-6208.dll
+[2016.12.03-18.58.53:793][343]CompilerResultsLog: Info    Creating library C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Alpha-6208.lib and object C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Alpha-6208.exp
+[2016.12.03-18.58.53:793][343]CompilerResultsLog: Info Total build time: 77.89 seconds
+[2016.12.03-18.58.53:793][343]LogMainFrame: MainFrame: Module compiling took 80.296 seconds
+[2016.12.03-18.58.54:043][343]LogClass: Could not find existing class Tower in package /Script/Alpha for HotReload, assuming new class
+[2016.12.03-18.58.54:073][343]LogContentBrowser: Native class hierarchy updated for 'Alpha' in 0.0028 seconds. Added 4 classes and 2 folders.
+[2016.12.03-18.58.54:075][343]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.12.03-18.58.54:314][343]LogContentBrowser: Native class hierarchy populated in 0.0192 seconds. Added 2147 classes and 421 folders.
+[2016.12.03-18.58.54:333][343]Display: HotReload took 81.1s.
+[2016.12.03-18.58.54:334][343]Warning: HotReload operation took 81.1s.
+[2016.12.03-18.58.54:534][343]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Source/Alpha/Tower.h'
+[2016.12.03-18.58.54:661][343]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Source/Alpha/Tower.cpp'
+[2016.12.03-18.58.54:732][343]LogHotReload: New module detected: UE4Editor-Alpha-6208.dll
+[2016.12.03-18.58.54:919][344]LogHotReload: Starting Hot-Reload from IDE
+[2016.12.03-18.58.54:981][344]LogContentBrowser: Native class hierarchy updated for 'Alpha' in 0.0026 seconds. Added 4 classes and 2 folders.
+[2016.12.03-18.58.54:982][344]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.12.03-18.58.55:001][344]LogContentBrowser: Native class hierarchy populated in 0.0158 seconds. Added 2147 classes and 421 folders.
+[2016.12.03-18.58.55:022][344]Display: HotReload took  0.1s.
+[2016.12.03-18.59.00:064][929]LogHttp:Warning: 000001B68A914700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-18.59.00:064][929]LogHttp:Warning: 000001B68A914700: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-18.59.00:064][929]LogHttp:Warning: 000001B68A914700: libcurl info message cache 9 (Closing connection 23)
+[2016.12.03-19.01.10:646][240]LogHttp:Warning: 000001B6E5674280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-19.01.10:646][240]LogHttp:Warning: 000001B6E5674280: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-19.01.10:646][240]LogHttp:Warning: 000001B6E5674280: libcurl info message cache 9 (Closing connection 24)
+[2016.12.03-19.04.36:080][ 25]Running C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha Win64 Development -editorrecompile "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject" -invalidatemakefilesonly
+[2016.12.03-19.04.36:787][ 25]Invalidating makefiles only in this run.
+[2016.12.03-19.04.38:918][ 25]Recompiling Alpha...
+[2016.12.03-19.04.38:918][ 25]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha -ModuleWithSuffix Alpha 2209 Win64 Development -editorrecompile -canskiplink "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject"  -2015]
+[2016.12.03-19.04.57:440][ 25]CompilerResultsLog: New page: Compilation - Dec 3, 2016, 7:04:57 AM
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info Performing full C++ include scan (hot reloading a new target)
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info Creating makefile for hot reloading Alpha (no existing makefile)
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info Parsing headers for AlphaEditor
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Sean\Documents\Unreal Projects\Alpha\Alpha.uproject" "C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\AlphaEditor\Development\AlphaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info Reflection code generated for AlphaEditor in 4.4474007 seconds
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info Performing 4 actions (4 in parallel)
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info Alpha.generated.cpp
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info Tower.cpp
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info Creep.cpp
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(31) : error C2065: 'Creep': undeclared identifier
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(31) : error C2227: left of '->GetActorLocation' must point to class/struct/union/generic type
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(31) : note: type is 'unknown-type'
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(35) : error C2065: 'Creep': undeclared identifier
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(35) : error C2227: left of '->GetActorLocation' must point to class/struct/union/generic type
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(35) : note: type is 'unknown-type'
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(36) : error C2275: 'UClass': illegal use of this type as an expression
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\4.13\Engine\Source\Runtime\CoreUObject\Public\Templates\Casts.h(320) : note: see declaration of 'UClass'
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(36) : error C2146: syntax error: missing ')' before identifier 'Projectile'
+[2016.12.03-19.04.57:441][ 25]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Sean\Documents\Unreal Projects\Alpha\Binaries\Win64\UE4Editor-Alpha-2209.dll
+[2016.12.03-19.04.57:442][ 25]CompilerResultsLog: Info Total build time: 16.45 seconds
+[2016.12.03-19.04.57:442][ 25]LogMainFrame: MainFrame: Module compiling took 18.528 seconds
+[2016.12.03-19.04.57:442][ 25]Warning: HotReload failed, recompile failed
+[2016.12.03-19.04.57:468][ 25]Warning: RebindPackages failed because the compiler could not be started.
+[2016.12.03-19.06.48:148][144]LogHttp:Warning: 000001B682659A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-19.06.48:148][144]LogHttp:Warning: 000001B682659A80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-19.06.48:148][144]LogHttp:Warning: 000001B682659A80: libcurl info message cache 9 (Closing connection 25)
+[2016.12.03-19.07.37:214][279]Running C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha Win64 Development -editorrecompile "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject" -invalidatemakefilesonly
+[2016.12.03-19.07.37:618][279]Invalidating makefiles only in this run.
+[2016.12.03-19.07.39:920][279]Recompiling Alpha...
+[2016.12.03-19.07.39:921][279]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha -ModuleWithSuffix Alpha 8768 Win64 Development -editorrecompile -canskiplink "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject"  -2015]
+[2016.12.03-19.07.54:563][279]CompilerResultsLog: New page: Compilation - Dec 3, 2016, 7:07:54 AM
+[2016.12.03-19.07.54:563][279]CompilerResultsLog: Info Creating makefile for hot reloading Alpha (no existing makefile)
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info Parsing headers for AlphaEditor
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Sean\Documents\Unreal Projects\Alpha\Alpha.uproject" "C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\AlphaEditor\Development\AlphaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info Reflection code generated for AlphaEditor in 4.5764899 seconds
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info Performing 5 actions (4 in parallel)
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info Creep.cpp
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info Alpha.generated.cpp
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info Tower.cpp
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info Player_VS_AI.cpp
+[2016.12.03-19.07.54:564][279]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(31) : error C2065: 'Creep': undeclared identifier
+[2016.12.03-19.07.54:564][279]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(31) : error C2227: left of '->GetActorLocation' must point to class/struct/union/generic type
+[2016.12.03-19.07.54:564][279]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(31) : note: type is 'unknown-type'
+[2016.12.03-19.07.54:564][279]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(35) : error C2065: 'Creep': undeclared identifier
+[2016.12.03-19.07.54:564][279]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(35) : error C2227: left of '->GetActorLocation' must point to class/struct/union/generic type
+[2016.12.03-19.07.54:564][279]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(35) : note: type is 'unknown-type'
+[2016.12.03-19.07.54:564][279]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(36) : error C2275: 'UClass': illegal use of this type as an expression
+[2016.12.03-19.07.54:564][279]CompilerResultsLog:Error: Error C:\Program Files\Epic Games\4.13\Engine\Source\Runtime\CoreUObject\Public\Templates\Casts.h(320) : note: see declaration of 'UClass'
+[2016.12.03-19.07.54:564][279]CompilerResultsLog:Error: Error C:\Users\Sean\Documents\Unreal Projects\Alpha\Source\Alpha\Tower.cpp(36) : error C2146: syntax error: missing ')' before identifier 'Projectile'
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Sean\Documents\Unreal Projects\Alpha\Binaries\Win64\UE4Editor-Alpha-8768.dll
+[2016.12.03-19.07.54:564][279]CompilerResultsLog: Info Total build time: 12.55 seconds
+[2016.12.03-19.07.54:564][279]LogMainFrame: MainFrame: Module compiling took 14.649 seconds
+[2016.12.03-19.07.54:564][279]Warning: HotReload failed, recompile failed
+[2016.12.03-19.07.54:567][279]Warning: RebindPackages failed because the compiler could not be started.
+[2016.12.03-19.08.42:095][991]LogHttp:Warning: 000001B68265BD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-19.08.42:095][991]LogHttp:Warning: 000001B68265BD00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-19.08.42:095][991]LogHttp:Warning: 000001B68265BD00: libcurl info message cache 9 (Closing connection 26)
+[2016.12.03-19.11.10:667][604]LogHttp:Warning: 000001B69758A380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-19.11.10:667][604]LogHttp:Warning: 000001B69758A380: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-19.11.10:667][604]LogHttp:Warning: 000001B69758A380: libcurl info message cache 9 (Closing connection 27)
+[2016.12.03-19.14.07:025][456]Recompiling Alpha...
+[2016.12.03-19.14.07:025][456]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha -ModuleWithSuffix Alpha 7966 Win64 Development -editorrecompile -canskiplink "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject"  -2015]
+[2016.12.03-19.14.07:027][456]Warning: Starting HotReload took  0.0s.
+[2016.12.03-19.14.20:150][ 17]CompilerResultsLog: New page: Compilation - Dec 3, 2016, 7:14:20 AM
+[2016.12.03-19.14.20:150][ 17]CompilerResultsLog: Info Creating makefile for hot reloading Alpha (working set of source files changed)
+[2016.12.03-19.14.20:150][ 17]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.12.03-19.14.20:150][ 17]CompilerResultsLog: Info Parsing headers for AlphaEditor
+[2016.12.03-19.14.20:150][ 17]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Sean\Documents\Unreal Projects\Alpha\Alpha.uproject" "C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\AlphaEditor\Development\AlphaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.12.03-19.14.20:150][ 17]CompilerResultsLog: Info Reflection code generated for AlphaEditor in 4.4505893 seconds
+[2016.12.03-19.14.20:151][ 17]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.12.03-19.14.20:151][ 17]CompilerResultsLog: Info Tower.cpp
+[2016.12.03-19.14.20:151][ 17]CompilerResultsLog:Error: Error c:\users\sean\documents\unreal projects\alpha\source\alpha\tower.cpp(32)  : error C4716: 'ATower::fetch_Target': must return a value
+[2016.12.03-19.14.20:151][ 17]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Sean\Documents\Unreal Projects\Alpha\Binaries\Win64\UE4Editor-Alpha-7966.dll
+[2016.12.03-19.14.20:151][ 17]CompilerResultsLog: Info Total build time: 11.04 seconds
+[2016.12.03-19.14.20:151][ 17]LogMainFrame: MainFrame: Module compiling took 13.133 seconds
+[2016.12.03-19.14.20:151][ 17]Warning: HotReload failed, recompile failed
+[2016.12.03-19.15.12:555][943]LogHttp:Warning: 000001B68264DF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-19.15.12:555][943]LogHttp:Warning: 000001B68264DF00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-19.15.12:555][943]LogHttp:Warning: 000001B68264DF00: libcurl info message cache 9 (Closing connection 28)
+[2016.12.03-19.15.19:482][206]Recompiling Alpha...
+[2016.12.03-19.15.19:482][206]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha -ModuleWithSuffix Alpha 1382 Win64 Development -editorrecompile -canskiplink "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject"  -2015]
+[2016.12.03-19.15.19:484][206]Warning: Starting HotReload took  0.1s.
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: New page: Compilation - Dec 3, 2016, 7:15:33 AM
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info Creating makefile for hot reloading Alpha (working set of source files changed)
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info Parsing headers for AlphaEditor
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Sean\Documents\Unreal Projects\Alpha\Alpha.uproject" "C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\AlphaEditor\Development\AlphaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info Reflection code generated for AlphaEditor in 4.8501186 seconds
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info Performing 3 actions (4 in parallel)
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info Alpha.generated.cpp
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info Tower.cpp
+[2016.12.03-19.15.33:554][872]CompilerResultsLog:Error: Error c:\users\sean\documents\unreal projects\alpha\source\alpha\tower.cpp(32)  : error C4716: 'ATower::fetch_Target': must return a value
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info ERROR: UBT ERROR: Failed to produce item: C:\Users\Sean\Documents\Unreal Projects\Alpha\Binaries\Win64\UE4Editor-Alpha-1382.dll
+[2016.12.03-19.15.33:554][872]CompilerResultsLog: Info Total build time: 11.99 seconds
+[2016.12.03-19.15.33:554][872]LogMainFrame: MainFrame: Module compiling took 14.077 seconds
+[2016.12.03-19.15.33:554][872]Warning: HotReload failed, recompile failed
+[2016.12.03-19.16.24:896][944]LogHttp:Warning: 000001B68264D600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-19.16.24:896][944]LogHttp:Warning: 000001B68264D600: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-19.16.24:896][944]LogHttp:Warning: 000001B68264D600: libcurl info message cache 9 (Closing connection 29)
+[2016.12.03-19.16.59:691][357]Recompiling Alpha...
+[2016.12.03-19.16.59:692][357]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha -ModuleWithSuffix Alpha 3290 Win64 Development -editorrecompile -canskiplink "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject"  -2015]
+[2016.12.03-19.16.59:693][357]Warning: Starting HotReload took  0.0s.
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: New page: Compilation - Dec 3, 2016, 7:17:13 AM
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info Creating makefile for hot reloading Alpha (working set of source files changed)
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info Parsing headers for AlphaEditor
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Sean\Documents\Unreal Projects\Alpha\Alpha.uproject" "C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\AlphaEditor\Development\AlphaEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info Reflection code generated for AlphaEditor in 4.2546352 seconds
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info Performing 2 actions (4 in parallel)
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info Tower.cpp
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info [2/2] Link UE4Editor-Alpha-3290.dll
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info    Creating library C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Alpha-3290.lib and object C:\Users\Sean\Documents\Unreal Projects\Alpha\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Alpha-3290.exp
+[2016.12.03-19.17.13:898][ 76]CompilerResultsLog: Info Total build time: 11.85 seconds
+[2016.12.03-19.17.13:898][ 76]LogMainFrame: MainFrame: Module compiling took 14.212 seconds
+[2016.12.03-19.17.13:969][ 76]LogClass: Could not find existing class Creep in package /Script/Alpha for HotReload, assuming new class
+[2016.12.03-19.17.13:969][ 76]LogClass: Could not find existing class Player_VS_AI in package /Script/Alpha for HotReload, assuming new class
+[2016.12.03-19.17.13:969][ 76]LogClass: Could not find existing class Tower in package /Script/Alpha for HotReload, assuming new class
+[2016.12.03-19.17.14:012][ 76]LogHotReload: Re-instancing Tower after hot-reload.
+[2016.12.03-19.17.14:168][ 76]LogContentBrowser: Native class hierarchy updated for 'Alpha' in 0.0047 seconds. Added 6 classes and 2 folders.
+[2016.12.03-19.17.14:171][ 76]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.12.03-19.17.14:233][ 76]LogContentBrowser: Native class hierarchy populated in 0.0221 seconds. Added 2149 classes and 421 folders.
+[2016.12.03-19.17.14:233][ 76]Display: HotReload took 14.6s.
+[2016.12.03-19.18.05:255][231]LogHttp:Warning: 000001B68264C280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-19.18.05:255][231]LogHttp:Warning: 000001B68264C280: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-19.18.05:255][231]LogHttp:Warning: 000001B68264C280: libcurl info message cache 9 (Closing connection 30)
+[2016.12.03-19.20.01:691][809]Recompiling Alpha...
+[2016.12.03-19.20.01:691][809]Launching UnrealBuildTool... [C:/Program Files/Epic Games/4.13/Engine/Binaries/DotNET/UnrealBuildTool.exe Alpha -ModuleWithSuffix Alpha 3178 Win64 Development -editorrecompile -canskiplink "C:/Users/Sean/Documents/Unreal Projects/Alpha/Alpha.uproject"  -2015]
+[2016.12.03-19.20.01:693][809]Warning: Starting HotReload took  0.0s.
+[2016.12.03-19.20.04:892][185]CompilerResultsLog: New page: Compilation - Dec 3, 2016, 7:20:04 AM
+[2016.12.03-19.20.04:892][185]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.12.03-19.20.04:892][185]CompilerResultsLog: Info Target is up to date
+[2016.12.03-19.20.04:892][185]LogMainFrame: MainFrame: Module compiling took 3.205 seconds
+[2016.12.03-19.20.04:935][185]LogContentBrowser: Native class hierarchy populated in 0.0186 seconds. Added 2149 classes and 421 folders.
+[2016.12.03-19.20.04:935][185]Display: HotReload took  3.3s.
+[2016.12.03-19.20.55:890][595]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.03-19.20.56:234][596]Cmd: QUIT_EDITOR
+[2016.12.03-19.20.56:343][596]LogExit: Preparing to exit.
+[2016.12.03-19.20.56:862][596]LogDirectoryWatcher: A directory notification for 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Content/' was aborted.
+[2016.12.03-19.20.56:973][596]LogExit: Editor shut down
+[2016.12.03-19.20.56:978][596]LogExit: Transaction tracking system shut down
+[2016.12.03-19.20.57:209][596]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.03-19.20.57:210][596]LogExit: Object subsystem successfully closed.
+[2016.12.03-19.20.57:243][596]LogD3D11RHI: Shutdown
+[2016.12.03-19.20.57:243][596]LogD3D11RHI: CleanupD3DDevice
+[2016.12.03-19.20.57:487][596]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.03-19.20.57:514][596]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (234)
+[2016.12.03-19.20.57:514][596]LogModuleManager: Shutting down and abandoning module CrashTracker (233)
+[2016.12.03-19.20.57:514][596]LogModuleManager: Shutting down and abandoning module SceneOutliner (232)
+[2016.12.03-19.20.57:514][596]LogModuleManager: Shutting down and abandoning module WidgetCarousel (231)
+[2016.12.03-19.20.57:514][596]LogModuleManager: Shutting down and abandoning module AddContentDialog (230)
+[2016.12.03-19.20.57:514][596]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.12.03-19.20.57:524][596]LogModuleManager: Shutting down and abandoning module GameplayTags (229)
+[2016.12.03-19.20.57:524][596]LogModuleManager: Shutting down and abandoning module EditorWidgets (228)
+[2016.12.03-19.20.57:524][596]LogModuleManager: Shutting down and abandoning module CollectionManager (227)
+[2016.12.03-19.20.57:525][596]LogDirectoryWatcher: A directory notification for 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Content/Collections/' was aborted.
+[2016.12.03-19.20.57:525][596]LogDirectoryWatcher: A directory notification for 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Content/Developers/Sean/Collections/' was aborted.
+[2016.12.03-19.20.57:525][596]LogDirectoryWatcher: A directory notification for 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Saved/Collections/' was aborted.
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module StatsViewer (226)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module FoliageEdit (225)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module LandscapeEditor (224)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (223)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module ActorPickerMode (222)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module GeometryMode (221)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module TextureAlignMode (220)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module BspMode (219)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module HardwareSurvey (218)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (217)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module SequenceRecorder (216)
+[2016.12.03-19.20.57:525][596]LogModuleManager: Shutting down and abandoning module AutomationWorker (215)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (214)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module PlacementMode (213)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (212)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (211)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (210)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (209)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (208)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module Media (207)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (206)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (205)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module CharacterAI (204)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module SmartSnapping (203)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module SessionServices (202)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module ViewportSnapping (201)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module ViewportInteraction (200)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module LogVisualizer (199)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (198)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module IntroTutorials (197)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (196)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (195)
+[2016.12.03-19.20.57:526][596]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (194)
+[2016.12.03-19.20.57:527][596]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (193)
+[2016.12.03-19.20.58:066][596]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (192)
+[2016.12.03-19.20.58:066][596]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (191)
+[2016.12.03-19.20.58:066][596]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (190)
+[2016.12.03-19.20.58:066][596]LogModuleManager: Shutting down and abandoning module NiagaraEditor (189)
+[2016.12.03-19.20.58:066][596]LogModuleManager: Shutting down and abandoning module MergeActors (188)
+[2016.12.03-19.20.58:066][596]LogModuleManager: Shutting down and abandoning module SizeMap (187)
+[2016.12.03-19.20.58:066][596]LogModuleManager: Shutting down and abandoning module TreeMap (186)
+[2016.12.03-19.20.58:066][596]LogModuleManager: Shutting down and abandoning module ReferenceViewer (185)
+[2016.12.03-19.20.58:066][596]LogModuleManager: Shutting down and abandoning module LocalizationService (184)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (183)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module HardwareTargeting (182)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (181)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module UndoHistory (180)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module UserFeedback (179)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module XmlParser (178)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module Blutility (177)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (176)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (175)
+[2016.12.03-19.20.58:067][596]LogModuleManager: Shutting down and abandoning module InputBindingEditor (174)
+[2016.12.03-19.20.58:068][596]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (173)
+[2016.12.03-19.20.58:068][596]LogModuleManager: Shutting down and abandoning module SettingsEditor (172)
+[2016.12.03-19.20.58:068][596]LogModuleManager: Shutting down and abandoning module ProjectLauncher (171)
+[2016.12.03-19.20.58:068][596]LogModuleManager: Shutting down and abandoning module SessionFrontend (170)
+[2016.12.03-19.20.58:068][596]LogModuleManager: Shutting down and abandoning module ProfilerClient (169)
+[2016.12.03-19.20.58:068][596]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (168)
+[2016.12.03-19.20.58:068][596]LogModuleManager: Shutting down and abandoning module DeviceManager (167)
+[2016.12.03-19.20.58:112][596]LogModuleManager: Shutting down and abandoning module AutomationController (166)
+[2016.12.03-19.20.58:112][596]LogModuleManager: Shutting down and abandoning module AutomationWindow (165)
+[2016.12.03-19.20.58:112][596]LogModuleManager: Shutting down and abandoning module Layers (164)
+[2016.12.03-19.20.58:112][596]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (163)
+[2016.12.03-19.20.58:112][596]LogModuleManager: Shutting down and abandoning module DetailCustomizations (162)
+[2016.12.03-19.20.58:112][596]LogModuleManager: Shutting down and abandoning module PackagesDialog (161)
+[2016.12.03-19.20.58:112][596]LogModuleManager: Shutting down and abandoning module AnimGraph (160)
+[2016.12.03-19.20.58:112][596]LogModuleManager: Shutting down and abandoning module Persona (159)
+[2016.12.03-19.20.58:112][596]LogModuleManager: Shutting down and abandoning module Kismet (158)
+[2016.12.03-19.20.58:113][596]LogModuleManager: Shutting down and abandoning module GraphEditor (157)
+[2016.12.03-19.20.58:113][596]LogModuleManager: Shutting down and abandoning module ClassViewer (156)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module Toolbox (155)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module ModuleUI (154)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module MovieSceneTools (153)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module OutputLog (152)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module GammaUI (151)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module Documentation (150)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module Niagara (149)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (148)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module AnalyticsET (147)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module PortalServices (146)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module PortalRpc (145)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module MessagingRpc (144)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module GameplayDebugger (143)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module AITestSuite (142)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module AIModule (141)
+[2016.12.03-19.20.58:154][596]LogModuleManager: Shutting down and abandoning module ProfilerService (140)
+[2016.12.03-19.20.58:347][596]LogModuleManager: Shutting down and abandoning module TaskGraph (139)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module SlateRemote (138)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module SteamVRController (137)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module SteamVR (136)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (135)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (134)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module OculusLibrary (133)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module OculusInput (132)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (131)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module CableComponent (130)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (129)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (127)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (117)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2016.12.03-19.20.58:348][596]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2016.12.03-19.20.58:349][596]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (104)
+[2016.12.03-19.20.58:349][596]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.12.03-19.20.58:349][596]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.12.03-19.20.58:349][596]LogDirectoryWatcher: A directory notification for 'C:/Users/Sean/Documents/Unreal Projects/Alpha/Binaries/Win64' was aborted.
+[2016.12.03-19.20.58:349][596]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.12.03-19.20.58:349][596]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.12.03-19.20.58:352][596]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.12.03-19.20.58:353][596]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.12.03-19.20.58:353][596]LogModuleManager: Shutting down and abandoning module Alpha (97)
+[2016.12.03-19.20.58:353][596]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.12.03-19.20.58:454][596]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2016.12.03-19.20.58:555][596]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.12.03-19.20.58:555][596]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.12.03-19.20.58:555][596]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.12.03-19.20.58:555][596]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.12.03-19.20.58:555][596]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.12.03-19.20.58:555][596]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.12.03-19.20.58:556][596]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.12.03-19.20.58:557][596]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.12.03-19.20.58:557][596]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.12.03-19.20.58:557][596]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.12.03-19.20.58:557][596]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.12.03-19.20.58:557][596]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.12.03-19.20.58:557][596]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.12.03-19.20.58:562][596]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.12.03-19.20.58:562][596]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.12.03-19.20.58:562][596]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.12.03-19.20.58:562][596]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.12.03-19.20.58:562][596]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.12.03-19.20.58:562][596]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.12.03-19.20.58:562][596]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.12.03-19.20.58:563][596]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Sean/Documents/Unreal Projects/Alpha/Content/' was aborted.
+[2016.12.03-19.20.58:564][596]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.12.03-19.20.58:572][596]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.12.03-19.20.58:813][596]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.12.03-19.20.58:813][596]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.12.03-19.20.58:813][596]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.12.03-19.20.58:813][596]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.12.03-19.20.58:821][596]LogDerivedDataCache: Shutdown
+[2016.12.03-19.20.58:821][596]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.12.03-19.20.58:821][596]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.12.03-19.20.58:821][596]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.12.03-19.20.58:821][596]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.12.03-19.20.58:821][596]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.12.03-19.20.58:821][596]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.12.03-19.20.58:821][596]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.12.03-19.20.58:821][596]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.12.03-19.20.58:822][596]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.12.03-19.20.58:823][596]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.03-19.20.58:823][596]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.03-19.20.58:823][596]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.03-19.20.58:823][596]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2E2A0ED2-427A-EF16-4F0F-309E9E8B9C3F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=2b116fed4404ce3dc110a6b9416f4248%7Cc6fdfb796f634a2fb02391c04ee6d515%7C53e75127-9573-4f54-8709-839e24f1dcfc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.03-19.20.58:823][596]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2016.12.03-19.20.59:324][596]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2016.12.03-19.20.59:825][596]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2016.12.03-19.21.00:326][596]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2016.12.03-19.21.00:827][596]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2016.12.03-19.21.01:328][596]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2016.12.03-19.21.01:829][596]LogHttp:Warning: 000001B68265B400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.03-19.21.01:829][596]LogHttp:Warning: 000001B68265B400: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.03-19.21.01:829][596]LogHttp:Warning: 000001B68265B400: libcurl info message cache 9 (Closing connection 31)
+[2016.12.03-19.21.01:854][596]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.03-19.21.01:854][596]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.03-19.21.01:854][596]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.03-19.21.01:854][596]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.03-19.21.01:854][596]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.03-19.21.01:862][596]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.03-19.21.01:865][596]LogExit: Exiting.
+[2016.12.03-19.21.01:882][596]Log file closed, 12/03/16 13:21:01
